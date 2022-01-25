@@ -3,8 +3,8 @@ import smtplib
 import requests
 
 posts = requests.get("https://api.npoint.io/c1bf880e51ba42a7416a").json()
-OWN_EMAIL = "mindrefresher@gmail.com"
-OWN_PASSWORD = "easefar1"
+OWN_EMAIL = "jackjaggeriv@gmail.com"
+OWN_PASSWORD = ""
 
 app = Flask(__name__)
 
